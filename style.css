@@ -1,5 +1,7 @@
 html {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
+   
 }
 
 h1 {
@@ -16,14 +18,17 @@ h1 {
 nav ul li {
     list-style-type: none;
     width: 150px; 
-    width: 100px; 
     float: right;
 }
 
 
+nav ul {
+    width: 100%;
+}
+
 body { 
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    background: url('../images/fresh_snow/fresh_snow.png') 100% 100%;
+    background: url('./images/fresh_snow.png') 100% 100%;
     min-height: 100%;
 }
  
@@ -43,8 +48,10 @@ p {
  
   
 .container {
-    margin: 0 auto;
+    margin: auto;
     width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
     position: relative;
     min-height: 100vh; 
 }
@@ -59,7 +66,7 @@ p {
 
 .header-container {
     margin: 0 auto;
-    width: 960px;
+    width: 85%;   
 }
 
 
@@ -269,6 +276,7 @@ footer {
     width: 100%;
     position: static;
     bottom: 0
+    width: 100%;
 }
  
 
@@ -291,3 +299,28 @@ a:hover {
  a {
     color: #4aaaa5;
  }
+
+
+ /*Responsive Portfolio Starts Here*/
+
+ @media screen and (max-width: 400px) {
+    nav ul li {
+        max-width: 50px;
+        min-width: 50px;
+    }
+    
+    nav ul {
+        width: 100%; 
+    }
+
+    .container {
+        width: 100%;
+    }
+    
+    .portfolio {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-column-gap: 5px;
+        width: 50%;
+    }
+ }
+
