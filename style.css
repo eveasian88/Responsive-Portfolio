@@ -217,6 +217,7 @@ body {
   }
 
   
+  
 /* Target viewport sizes less than 640px */
 @media screen (max-width: 640px) {
   header {
