@@ -217,6 +217,17 @@ body {
   }
 
   
+  a:hover {
+    color: #4aaaa5;
+    text-decoration: underline
+ }
+ 
+ 
+ a {
+    color: #4aaaa5;
+ }
+
+ 
   
 /* Target viewport sizes less than 640px */
 @media screen (max-width: 640px) {
