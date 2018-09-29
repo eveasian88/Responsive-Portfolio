@@ -246,9 +246,8 @@ body {
     display: inline-block;
     margin: 0 0 .45em;
   }
-
   h1, h2, h3 {
-
+margin-bottom: 1.5em;
   }
 }
 
@@ -261,6 +260,17 @@ body {
 }
 
 /* Target viewport sizes 768px and wider */
-@media 
+@media (min-width: 768px) {
+  .articles {
+    float: right;
+    width: 65%;
+  }
+}
 
+/* Target viewport sizes 980px and wider */
+@media (min-width: 980px) {
+  nav {
+    float: right;
+  }
+}
   
