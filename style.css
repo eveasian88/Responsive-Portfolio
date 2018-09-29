@@ -217,13 +217,50 @@ body {
   }
 
   
-/* Target Viewport at 640px */
+/* Target viewport sizes less than 640px */
+@media (max-width: 640px) {
+  header {
+    text-align: center;
+    margin-bottom: 2.5rem;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+  nav a {
+    padding: 6px 0;
+    background: #4aaaa5
+    margin: .2em 0;
+  }
+}
 
 
+/* Target viewport sizes 640px and wider */
+@media (min-width: 640px) {
+  .logo {
+    float: left;
+  }
+  nav {
+    margin-top: 24px;
+  }
+  nav li {
+    display: inline-block;
+    margin: 0 0 .45em;
+  }
 
-/* Target Viewport at 768px */
+  h1, h2, h3 {
 
+  }
+}
 
+/* Target a viewport range wider than 640px and narrower than 768px */
+@media (min-width: 640px) and (max-width: 768px) {
+  nav {
+    float: left;
+    margin-left: 20px;
+  }
+}
 
-/* Target Viewport at 980px */
+/* Target viewport sizes 768px and wider */
+@media 
+
   
