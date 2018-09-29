@@ -218,7 +218,7 @@ body {
 
   
 /* Target viewport sizes less than 640px */
-@media (max-width: 640px) {
+@media screen (max-width: 640px) {
   header {
     text-align: center;
     margin-bottom: 2.5rem;
@@ -235,7 +235,7 @@ body {
 
 
 /* Target viewport sizes 640px and wider */
-@media (min-width: 640px) {
+@media screen (min-width: 640px) {
   .logo {
     float: left;
   }
@@ -252,7 +252,7 @@ margin-bottom: 1.5em;
 }
 
 /* Target a viewport range wider than 640px and narrower than 768px */
-@media (min-width: 640px) and (max-width: 768px) {
+@media screen (min-width: 640px) and (max-width: 768px) {
   nav {
     float: left;
     margin-left: 20px;
@@ -260,7 +260,7 @@ margin-bottom: 1.5em;
 }
 
 /* Target viewport sizes 768px and wider */
-@media (min-width: 768px) {
+@media screen (min-width: 768px) {
   .articles {
     float: right;
     width: 65%;
@@ -268,7 +268,7 @@ margin-bottom: 1.5em;
 }
 
 /* Target viewport sizes 980px and wider */
-@media (min-width: 980px) {
+@media screen (min-width: 980px) {
   nav {
     float: right;
   }
