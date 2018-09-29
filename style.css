@@ -301,9 +301,9 @@ a:hover {
  }
 
 
- /*Responsive Portfolio Starts Here*/
+ /*Target Viewport Sizes Less than 576px*/
 
- @media screen and (max-width: 400px) {
+ @media screen and (max-width: 576px) {
     nav ul li {
         max-width: 50px;
         min-width: 50px;
@@ -324,3 +324,4 @@ a:hover {
     }
  }
 
+ 
