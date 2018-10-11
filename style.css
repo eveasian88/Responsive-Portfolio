@@ -239,7 +239,8 @@ body {
   }
   nav a {
     padding: 6px 0;
-    background: #4aaaa5
+    background: #4aaaa5;
+    text-align: center;
     margin: .2em 0;
   }
 }
@@ -270,7 +271,7 @@ margin-bottom: 1.5em;
   }
 }
 
-/* Target viewport sizes 768px and wider */
+/* target viewport sizes 768px and wider */
 @media screen (min-width: 768px) {
   .articles {
     float: right;
@@ -278,7 +279,7 @@ margin-bottom: 1.5em;
   }
 }
 
-/* Target viewport sizes 980px and wider */
+/* target viewport sizes 980px and wider */
 @media screen (min-width: 980px) {
   nav {
     float: right;
