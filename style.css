@@ -245,7 +245,7 @@ body {
 }
 
 
-/* Target viewport sizes 640px and wider */
+/* target viewport sizes 640px and wider */
 @media screen (min-width: 640px) {
   .logo {
     float: left;
@@ -262,7 +262,7 @@ margin-bottom: 1.5em;
   }
 }
 
-/* Target a viewport range wider than 640px and narrower than 768px */
+/* target a viewport range wider than 640px and narrower than 768px */
 @media screen (min-width: 640px) and (max-width: 768px) {
   nav {
     float: left;
