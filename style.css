@@ -99,15 +99,14 @@ body {
   /* footer */
   
   footer {
+    background: #666666;
+    color: #ffffff;
     padding: 30px 0;
     clear: both;
-    font-size: 12px;
-    color: #ffffff;
-    color: #cccccc;
-    text-align: center;
-    background: #666666;
     border-top: 8px solid #4aaaa5;
-    height: 50px;
+    color: #cccccc;
+    font-size: 14px;
+    text-align: center;
   }
   
   h3, h2 {
@@ -216,7 +215,7 @@ body {
     border: 0 none;
   }
 
-  
+
   a:hover {
     color: #4aaaa5;
     text-decoration: underline
@@ -229,7 +228,7 @@ body {
 
  
   
-/* Target viewport sizes less than 640px */
+/* target viewport sizes less than 640px */
 @media screen (max-width: 640px) {
   header {
     text-align: center;
